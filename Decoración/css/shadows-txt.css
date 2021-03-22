@@ -1,0 +1,56 @@
+.inset {
+  background-color: #434343;
+  color: #222222;
+  text-shadow: 0 3px 3px rgba(255, 255, 255, 0.1);
+}
+
+.pressed {
+  background-color: #cccccc;
+  color: #cccccc;
+  text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2),
+    1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+.retro {
+  background-color: #f4f4dc;
+  color: #49281f;
+  text-shadow: 4px 4px 0 #f4f4dc, 6px 6px 0 #49281f;
+}
+
+.tresde {
+  background-color: #0d8ab8;
+  color: #fff;
+  text-shadow: 1px 1px 0 #ccc, 2px 2px 0 #c9c9c9, 3px 3px 0 #bbb,
+    4px 4px 0 #b9b9b9, 5px 5px 0 #aaa, 6px 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.3),
+    3px 3px 5px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.25),
+    10px 10px 10px rgba(0, 0, 0, 0.2), 20px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.blurry {
+  background-color: #eeeeee;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.jedi {
+  background-color: #111111;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 20px #51e225, 0 0 30px #51e225;
+}
+
+div {
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #fefde9;
+  margin: 0;
+  text-align: center;
+  font-family: "league gothic", "impact" sans-serif;
+  text-transform: uppercase;
+  text-rendering: optimizelegibility;
+  font-size: 150px;
+  line-height: 0;
+}

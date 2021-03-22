@@ -1,0 +1,54 @@
+::-webkit-input-placeholder {
+  color: hotpink;
+}
+:-ms-input-placeholder {
+  color: hotpink;
+}
+::-moz-placeholder {
+  color: hotpink;
+}
+::placeholder {
+  color: hotpink;
+}
+
+input:required {
+  border: none;
+  border-left: 5px solid red;
+}
+
+input:optional {
+  border: 2px dashed;
+}
+
+input:invalid {
+  background-color: pink;
+}
+
+input[type="checkbox"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #ececec;
+  margin: 3em 5em;
+}
+
+div {
+  margin-bottom: 2em;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px 15px;
+}
+input:not([type="checkbox"]) {
+  display: block;
+  min-width: 30%;
+}

@@ -1,0 +1,35 @@
+.border1 {
+  border-radius: 10px;
+  background-color: #bd1550;
+}
+
+.border2 {
+  border-radius: 0 30px;
+  background-color: #e97f02;
+}
+
+.border3 {
+  border-radius: 50%;
+  background-color: #f8ca00;
+}
+
+.border4 {
+  border-radius: 10px / 30px;
+  background: #8a9b0f;
+}
+
+.border5 {
+  border-radius: 100% 0 0 100% / 50%;
+  background: #610f9b;
+}
+
+/* Estilos generales */
+
+div {
+  width: 50px;
+  height: 50px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}

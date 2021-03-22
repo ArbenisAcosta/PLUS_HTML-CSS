@@ -1,0 +1,17 @@
+body {
+  background-color: #ececec;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 5em;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input {
+  min-width: 70%;
+  font-size: 18px;
+}

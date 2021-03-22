@@ -1,0 +1,59 @@
+@keyframes animaRotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ejemplo1 {
+  animation: animaRotate 2s infinite linear;
+}
+
+@keyframes animaWidth {
+  from {
+    width: 50px;
+    height: 50px;
+  }
+  to {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.ejemplo2 span {
+  animation: animaWidth 2s infinite ease alternate;
+}
+
+/* DEMO */
+body {
+  margin-top: 100px;
+  background: #fefde9;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+div span {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+section :last-child {
+  margin-right: 0;
+}
+
+section:first-of-type div span {
+  background: #00a0b0;
+}

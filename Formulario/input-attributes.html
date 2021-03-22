@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/input-attributes.css">
+</head>
+
+<body>
+    <form method="post" action="#">
+
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" autofocus>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="ejemplo@mail.com">
+        </div>
+        <div>
+            <label for="years">Años de experiencia:</label>
+            <input type="number" id="years" min="2" max="30">
+        </div>
+        <div>
+            <label for="quant">Cantidad:</label>
+            <input type="number" id="quant" step="6">
+        </div>
+        <div>
+            <label for="word">Palabra clave:</label>
+            <input type="text" id="word" maxlength="6">
+        </div>
+        <div>
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" required>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>

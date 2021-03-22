@@ -1,0 +1,24 @@
+.ejemplo {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: hsla(79, 100%, 80%, 0.4);
+}
+
+/* Estilos generales */
+
+body {
+  background-color: #bada55;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  font-size: 5rem;
+}
+.ejemplo {
+  width: 700px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}

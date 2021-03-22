@@ -1,0 +1,97 @@
+/*Box-shadow animation*/
+
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 10px 1px #3194c6;
+  }
+  to {
+    box-shadow: 0 0 25px 5px #3194c6;
+  }
+}
+
+.pulse a:hover {
+  animation: pulse 0.5s infinite alternate;
+}
+
+/*Annoying shaking animation*/
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  1%,
+  3%,
+  5% {
+    transform: translateX(10px);
+  }
+  2%,
+  4%,
+  6% {
+    transform: translateX(-10px);
+  }
+  7% {
+    transform: translateX(0);
+  }
+}
+
+.shake a {
+  animation: shake 5s infinite;
+}
+
+/*Even more annoying hinge animation*/
+
+@keyframes hinge {
+  0% {
+    -webkit-transform: rotate(0);
+    -webkit-transform-origin: top left;
+  }
+  20%,
+  60% {
+    -webkit-transform: rotate(80deg);
+    -webkit-transform-origin: top left;
+  }
+  40% {
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: top left;
+  }
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
+    opacity: 1;
+    -webkit-transform-origin: top left;
+  }
+  100% {
+    -webkit-transform: translateY(700px);
+    opacity: 0;
+  }
+}
+
+.hinge a {
+  animation: hinge 1s ease-in-out;
+}
+
+/*Button basic styles*/
+.button a {
+  display: inline-block;
+  padding: 0.5em 0;
+  width: 350px;
+  font: bold 2em/1 copperplate, serif;
+  color: #3194c6;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #fff;
+  background: #fff linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  border-radius: 50px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px 1px #3194c6;
+}
+
+/* DEMO */
+body {
+  margin: 50px 0 0;
+  background: #fefde9;
+  text-align: center;
+}
+
+div {
+  width: 400px;
+  margin: 0 auto 50px;
+}

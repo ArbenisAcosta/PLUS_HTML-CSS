@@ -1,0 +1,15 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #ececec;
+  margin: 3em 5em;
+}
+
+div {
+  margin-bottom: 2em;
+}
+
+input {
+  display: block;
+  font-size: 18px;
+}
